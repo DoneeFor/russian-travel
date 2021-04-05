@@ -2,7 +2,7 @@
   margin: 0 auto;
   max-width: 288px;
   z-index: 3;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
@@ -19,20 +19,7 @@
 @media screen and (min-width: 768px) {
   .cover__title {
     max-width: 560px;
-    top: 23.96%;
     font-size: 72px;
     line-height: 76px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .cover__title {
-    top: 33.47%;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .cover__title {
-    top: 33.11%;
   }
 }
